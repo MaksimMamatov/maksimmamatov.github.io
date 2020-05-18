@@ -1,0 +1,84 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+h1{
+    width: 100%;
+    background-color: black;
+    text-align: center;
+}
+
+body {
+    color: red
+}
+main {
+    width: 70%;
+    padding: 50px;
+    margin: auto;
+    background-color: blue;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+div{
+    width: calc(50% - 40px);
+    height: 250px;
+    background-color: tomato;
+    margin: 10px;
+    transition: all 0.5s ease;
+    border-radius: 10px;
+}
+.item1 {
+    background-image: url(../img/1560664173_2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.item2 {
+    background-image: url(../img/22321.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.item3 {
+    background-image: url(../img/krasivie-na-rabochii-stol-gorod-oboi.xxl.jpg); 
+}
+
+
+.item4 {background-image: url(../img/mid_283945_868073.jpg);
+background-size: cover;
+
+}
+.item5 {
+    background-image: url(../img/need-for-speed-heat-nfs-igra-mashiny-gonka.jpg);
+    background-size: cover;
+}
+.item6 {
+    background-image: url(../img/tmb_218889_939999.jpg);
+    background-size: cover;
+}
+.item7 {
+    background-image: url(../img/unnamed.jpg);
+    background-size: cover;
+}
+.item8 {
+    background-image: url(../img/World_of_Tanks_Skoda_T_27_575194_300x168.jpg) ;
+    background-size: cover;
+}
+.item9 {
+    background-image: url(../img/unnamed\ \(1\).jpg);   
+}
+
+.item10 {
+    background-image: url(../img/1534144508_severnoe-siyanie-na-rabochiy-stol.jpg);
+    background-size: cover;
+}
+.item11 {
+    background-image: url(../img/picsave_8b0120b749f795df31124f6becc4dfdf.jpg);
+    background-size: cover;
+}
+.item12 {
+    background-image: url(../img/1535582830_2018-08-30_014352.jpg);
+    background-size: cover;
+}
+.item:hover {
+    transform: rotate(3deg);
+}
